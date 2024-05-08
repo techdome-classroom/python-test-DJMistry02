@@ -6,5 +6,5 @@ class Solution:
         ans = 0
         row = len(grid)
         col = len(grid[0])
-        vis = [[0] for _ in range(col)]        
+        vis =         
         return 0

@@ -8,7 +8,7 @@ class Solution:
             nRow = curRow + dRow[i]
             nCol = curCol + dCol[i]
             if nRow>=0 and nRow<maxRow and nCol>=0 and nCol<maxCol and grid[nRow][nCol] == 'L' and vis[nRow][nCol] == 0:
-                
+                DFS(nRow,nCol,maxRow,maxCol,vis,grid)
 
     def getTotalIsles(self, grid: list[list[str]]) -> int:
         ans = 0

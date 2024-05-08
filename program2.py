@@ -10,4 +10,4 @@ def decode_message( s: str, p: str) -> bool:
     dp = [[[-1] * sLength] for _ in range(pLength)]
 
 
-    return 
+    return checkMatch(0,0,sLength,pLength,dp)

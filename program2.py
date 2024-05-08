@@ -2,7 +2,9 @@
 
 def checkMatch(sIndex, pIndex,sLength,pLength,s,p,dp):
     ans = False
-    sChar = 
+    sChar = s[sIndex]
+    pChar = p[pIndex]
+    
 
 
 def decode_message( s: str, p: str) -> bool:

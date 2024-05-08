@@ -1,6 +1,6 @@
 class Solution:
    
-    def DFS()
+    def DFS(int curRow, int curCol, )
 
     def getTotalIsles(self, grid: list[list[str]]) -> int:
         ans = 0

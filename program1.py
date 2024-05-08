@@ -9,8 +9,6 @@ def DFS(curRow, curCol, maxRow, maxCol, vis, grid):
             DFS(nRow,nCol,maxRow,maxCol,vis,grid)
     return
 
-print(3)
-
 def getTotalIsles(self, grid: list[list[str]]) -> int:
     ans = 0
     row = len(grid)

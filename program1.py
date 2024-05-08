@@ -1,7 +1,12 @@
 class Solution:
    
     def DFS(curRow, curCol, maxRow, maxCol, vis):
-        
+        dRow = [-1,1,0,0]
+        dCol = [0,0,-1,1]
+        for i in range(4):
+            nRow = curRow + dRow[i]
+            nCol = curCol + dCol[i]
+            
 
     def getTotalIsles(self, grid: list[list[str]]) -> int:
         ans = 0

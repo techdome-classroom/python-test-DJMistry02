@@ -1,6 +1,6 @@
 # maybe check the indexes in both strings and check for values.. even if one possible true, return true. use dp to keep track of upto which indexes it has been calculated
 
-def checkMatch(sIndex, pIndex,sLength,pLength,dp):
+def checkMatch(sIndex, pIndex,sLength,pLength,s,p,dp):
     ans = False
     sChar = 
 

@@ -7,6 +7,6 @@ def decode_message( s: str, p: str) -> bool:
     sLength = len(s)
     pLength = len(p)
 
-    dp = [[-1]]
+    dp = [[-1] * ]
 
     return False

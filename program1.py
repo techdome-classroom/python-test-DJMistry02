@@ -6,7 +6,7 @@
             nRow = curRow + dRow[i]
             nCol = curCol + dCol[i]
             if nRow>=0 and nRow<maxRow and nCol>=0 and nCol<maxCol and grid[nRow][nCol] == 'L' and vis[nRow][nCol] == 0:
-                DFS(nRow,nCol,maxRow,maxCol,vis,grid)
+                Solution.DFS(nRow,nCol,maxRow,maxCol,vis,grid)
         return
 
     def getTotalIsles(self, grid: list[list[str]]) -> int:
@@ -22,5 +22,5 @@
             for j in range(col):
                 if grid[i][j] == 'L' and vis[i][j] == 0:
                     ans += 1
-                    DFS(i,j,row,col,vis,grid)
+                    Solution.DFS(i,j,row,col,vis,grid)
         return ans

@@ -21,5 +21,7 @@ class Solution:
 
         for i in range(row):
             for j in range(col):
-                if 
+                if grid[i][j] == 'L' and vis[i][j] == 0:
+                    ans += 1
+                    DFS(i,j,)
         return 0

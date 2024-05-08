@@ -1,5 +1,3 @@
-class Solution:
-   
     def DFS(curRow, curCol, maxRow, maxCol, vis, grid):
         vis[curRow][curCol] = 1
         dRow = [-1,1,0,0]

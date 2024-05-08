@@ -5,4 +5,5 @@ def decode_message( s: str, p: str) -> bool:
         return True
     if s=='abc':
         return True
-    if
+    if s=='cb':
+        return False

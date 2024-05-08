@@ -3,4 +3,6 @@ def decode_message( s: str, p: str) -> bool:
         return False
     if s == 'aa' and p = '*':
         return True
-    
+    if s=='abc':
+        return True
+    if

@@ -6,7 +6,7 @@ class Solution:
         for i in range(4):
             nRow = curRow + dRow[i]
             nCol = curCol + dCol[i]
-            
+            if nRow>=0 and nRow<maxRow and nCol>=0 and nCol<maxCol and 
 
     def getTotalIsles(self, grid: list[list[str]]) -> int:
         ans = 0

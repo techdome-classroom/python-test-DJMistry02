@@ -19,5 +19,7 @@ class Solution:
         # see vis
         print(vis)
 
-        
+        for i in range(row):
+            for j in range(col):
+                if 
         return 0

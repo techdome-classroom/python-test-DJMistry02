@@ -8,6 +8,6 @@ def decode_message( s: str, p: str) -> bool:
     pLength = len(p)
 
     dp = [[[-1] * sLength] for _ in range(pLength)]
-    
 
-    return False
+
+    return 

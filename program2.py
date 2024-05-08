@@ -8,7 +8,7 @@ def checkMatch(sIndex, pIndex,sLength,pLength,s,p,dp):
     sChar = s[sIndex]
     pChar = p[pIndex]
     if pChar == '?':
-        dp[sIndex][pIndex]
+        dp[sIndex][pIndex] = 
     
 
 

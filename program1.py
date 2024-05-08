@@ -1,6 +1,6 @@
 class Solution:
    
-    def DFS(curRow, curCol, maxRow, maxCol, vis):
+    def DFS(curRow, curCol, maxRow, maxCol, vis, grid):
         dRow = [-1,1,0,0]
         dCol = [0,0,-1,1]
         for i in range(4):

@@ -6,5 +6,8 @@ class Solution:
         col = len(grid[0])
         vis = [[[0] * col] for _ in range(row)]
         
+        # see vis
+        print(vis)
+
         
         return 0

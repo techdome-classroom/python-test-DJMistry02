@@ -4,5 +4,5 @@ class Solution:
         ans = 0
         row = len(grid)
         col = len(grid[0])
-        vis = [[0]]
+        vis = [[0] * col] for _ in range(row)]
         return 0

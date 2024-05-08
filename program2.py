@@ -7,8 +7,9 @@ def checkMatch(sIndex, pIndex,sLength,pLength,s,p,dp):
     ans = False
     sChar = s[sIndex]
     pChar = p[pIndex]
+    nextChar = 
     if pChar == '?':
-        
+
 
 
 def decode_message( s: str, p: str) -> bool:

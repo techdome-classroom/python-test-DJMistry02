@@ -15,7 +15,7 @@ class Solution:
         ans = 0
         row = len(grid)
         col = len(grid[0])
-        vis = [[[0] for _ in range(col)] for _ in range(row)]
+        vis = [[0 for _ in range(col)] for _ in range(row)]
         
         # see vis
         print(vis)

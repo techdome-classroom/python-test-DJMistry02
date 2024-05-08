@@ -1,6 +1,8 @@
 class Solution:
    
+    def DFS()
+
     def getTotalIsles(self, grid: list[list[str]]) -> int:
-    #    write your code here
+        ans = 0
                     
         return 0

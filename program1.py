@@ -10,6 +10,6 @@ class Solution:
         
         # see vis
         print(vis)
-
+        
         
         return 0

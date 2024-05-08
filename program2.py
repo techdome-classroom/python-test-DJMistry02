@@ -8,6 +8,7 @@ def checkMatch(sIndex, pIndex,sLength,pLength,s,p,dp):
     sChar = s[sIndex]
     pChar = p[pIndex]
     
+    
 
 
 

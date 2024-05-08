@@ -7,7 +7,7 @@ def checkMatch(sIndex, pIndex,sLength,pLength,s,p,dp):
     ans = False
     sChar = s[sIndex]
     pChar = p[pIndex]
-    
+    #check characters by index with special cases for other characters. for ? just skip charcter and for * check if we can go to the next character
     
 
 

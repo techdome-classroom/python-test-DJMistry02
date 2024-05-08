@@ -7,7 +7,7 @@ def checkMatch(sIndex, pIndex,sLength,pLength,s,p,dp):
     ans = False
     sChar = s[sIndex]
     pChar = p[pIndex]
-    for i in range()
+    
 
 
 

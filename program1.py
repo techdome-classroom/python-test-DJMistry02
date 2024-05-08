@@ -1,12 +1,13 @@
 class Solution:
    
     def DFS(curRow, curCol, maxRow, maxCol, vis, grid):
+        vis[curRow][curCol] = 1
         dRow = [-1,1,0,0]
         dCol = [0,0,-1,1]
         for i in range(4):
             nRow = curRow + dRow[i]
             nCol = curCol + dCol[i]
-            if nRow>=0 and nRow<maxRow and nCol>=0 and nCol<maxCol and grid[nRow][nCol] == 
+            if nRow>=0 and nRow<maxRow and nCol>=0 and nCol<maxCol and grid[nRow][nCol] == 'L' and !vis[nRow][nCol]
 
     def getTotalIsles(self, grid: list[list[str]]) -> int:
         ans = 0
